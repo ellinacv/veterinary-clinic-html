@@ -23,12 +23,17 @@
   font-weight: 700;
   color: var(--light-brown);
 
-  line-height: 30px;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
 .nav-history__item a:hover {
   color: var(--dark);
+}
+
+.history-block {
+  font-size: 17px;
+  line-height: 1.5;
 }
 
 .history-block-text {
@@ -43,31 +48,29 @@
   font-weight: 400;
 }
 
+
 .history-block-image {
   display: flex;
   justify-content: space-between;
 
+  margin-bottom: 50px;
 }
 
 .history-block-image img {
   max-height: 400px;
 }
 
-.history-block__list {
-  line-height: 1.5;
-}
-
 .history-block__list li::before {
-  content: "-";
+  content: "—";
 
-  padding-right: 5px;
+  padding-right: 7px;
 }
 
 .block-page {
   margin-bottom: 100px;
 }
 
-.block-page p + p {
+.block-page p {
   margin-bottom: 25px;
-  line-height: 1.5;
 }
+
