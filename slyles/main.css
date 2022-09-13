@@ -35,11 +35,11 @@ body {
 }
 
 .header__logo {
-  background-image: url(/img/logo.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 79px;
   height: 62px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-list {
@@ -129,7 +129,7 @@ body {
 
   display: block;
 
-  background-image: url(/img/location.svg);
+  background-image: url(../img/location.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -480,14 +480,6 @@ body {
   max-width: 367px;
   position: relative;
   z-index: 2;
-}
-
-.download__appstore {
-  background-image: url(/img/appstore.svg);
-}
-
-.download__googleplay {
-  background-image: url(/img/googleplay.svg);
 }
 
 .footer {
